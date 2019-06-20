@@ -12,7 +12,7 @@ public class User {
     private int id;
 
     @NotNull
-    @Size(min=5, max=15)
+    @Size(min=3, max=15)
     private String username;
 
     @Email
