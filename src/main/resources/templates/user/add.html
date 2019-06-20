@@ -26,7 +26,7 @@
     <div class="form-group">
         <label for="verify-password-field">Verify Password</label>
         <input class="form-control" id="verify-password-field" type="password" name="verify-password" />
-        <span class="error" th:text="*{verifyError}"></span>
+        <span class="error" th:text="${verifyError}"></span>
     </div>
 
     <input type="submit" value="Add User" />
